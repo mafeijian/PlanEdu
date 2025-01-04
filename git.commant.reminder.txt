@@ -1,0 +1,51 @@
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ cd src/infra-structure/
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+$ git submodule add https://github.com/mafeijian/graphics-viewer.git
+Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer'...
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 34 (delta 6), reused 34 (delta 6), pack-reused 0 (from 0)
+Receiving objects: 100% (34/34), 49.52 KiB | 396.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+$ git submodule add https://github.com/mafeijian/undo-transaction.git
+Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/undo-transaction'...
+remote: Enumerating objects: 124, done.
+remote: Counting objects: 100% (124/124), done.
+remote: Compressing objects: 100% (81/81), done.
+remote: Total 124 (delta 57), reused 100 (delta 33), pack-reused 0 (from 0)
+Receiving objects: 100% (124/124), 25.57 KiB | 8.52 MiB/s, done.
+Resolving deltas: 100% (57/57), done.
+warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+$ git submodule add https://github.com/mafeijian/chain-update.git
+Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/chain-update'...
+remote: Enumerating objects: 124, done.
+remote: Counting objects: 100% (124/124), done.
+remote: Compressing objects: 100% (76/76), done.
+remote: Total 124 (delta 66), reused 101 (delta 43), pack-reused 0 (from 0)
+Receiving objects: 100% (124/124), 65.83 KiB | 674.00 KiB/s, done.
+Resolving deltas: 100% (66/66), done.
+warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ../../.gitmodules
+        new file:   chain-update
+        new file:   graphics-viewer
+        new file:   undo-transaction
+
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)

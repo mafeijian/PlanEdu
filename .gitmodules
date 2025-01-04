@@ -7,3 +7,9 @@
 [submodule "src/infra-structure/chain-update"]
 	path = src/infra-structure/chain-update
 	url = https://github.com/mafeijian/chain-update.git
+[submodule "src/infra-structure/Geom"]
+	path = src/infra-structure/Geom
+	url = https://github.com/mafeijian/Geom.git
+[submodule "src/infra-structure/Editor"]
+	path = src/infra-structure/Editor
+	url = https://github.com/mafeijian/Editor.git

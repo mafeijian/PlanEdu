@@ -1,0 +1,9 @@
+[submodule "src/infra-structure/graphics-viewer"]
+	path = src/infra-structure/graphics-viewer
+	url = https://github.com/mafeijian/graphics-viewer.git
+[submodule "src/infra-structure/undo-transaction"]
+	path = src/infra-structure/undo-transaction
+	url = https://github.com/mafeijian/undo-transaction.git
+[submodule "src/infra-structure/chain-update"]
+	path = src/infra-structure/chain-update
+	url = https://github.com/mafeijian/chain-update.git

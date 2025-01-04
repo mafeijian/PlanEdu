@@ -1,51 +1,188 @@
 ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
-$ cd src/infra-structure/
-(base)
-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
-$ git submodule add https://github.com/mafeijian/graphics-viewer.git
-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer'...
-remote: Enumerating objects: 34, done.
-remote: Counting objects: 100% (34/34), done.
-remote: Compressing objects: 100% (24/24), done.
-remote: Total 34 (delta 6), reused 34 (delta 6), pack-reused 0 (from 0)
-Receiving objects: 100% (34/34), 49.52 KiB | 396.00 KiB/s, done.
-Resolving deltas: 100% (6/6), done.
-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
-(base)
-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
-$ git submodule add https://github.com/mafeijian/undo-transaction.git
-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/undo-transaction'...
-remote: Enumerating objects: 124, done.
-remote: Counting objects: 100% (124/124), done.
-remote: Compressing objects: 100% (81/81), done.
-remote: Total 124 (delta 57), reused 100 (delta 33), pack-reused 0 (from 0)
-Receiving objects: 100% (124/124), 25.57 KiB | 8.52 MiB/s, done.
-Resolving deltas: 100% (57/57), done.
-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
-(base)
-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
-$ git submodule add https://github.com/mafeijian/chain-update.git
-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/chain-update'...
-remote: Enumerating objects: 124, done.
-remote: Counting objects: 100% (124/124), done.
-remote: Compressing objects: 100% (76/76), done.
-remote: Total 124 (delta 66), reused 101 (delta 43), pack-reused 0 (from 0)
-Receiving objects: 100% (124/124), 65.83 KiB | 674.00 KiB/s, done.
-Resolving deltas: 100% (66/66), done.
-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
-(base)
-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        deleted:    git.command.reminder.txt
+        modified:   src/infra-structure/graphics-viewer (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git.command.add.reminder.txt
+        git.command.update.reminder.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ cd src/infra-structure/graphics-viewer/
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/IDoc.ts
+        modified:   src/IView.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ git add .
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        new file:   ../../.gitmodules
-        new file:   chain-update
-        new file:   graphics-viewer
-        new file:   undo-transaction
+        modified:   src/IDoc.ts
+        modified:   src/IView.ts
 
 (base)
-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ git commit -m "make graphics-viewer code change"
+[main 86cd324] make graphics-viewer code change
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 535 bytes | 535.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mafeijian/graphics-viewer.git
+   8312392..86cd324  main -> main
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer (main)
+$ cd ../../..
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    git.command.reminder.txt
+        modified:   src/infra-structure/graphics-viewer (new commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git.command.add.reminder.txt
+        git.command.update.reminder.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git diff
+diff --git a/git.command.reminder.txt b/git.command.reminder.txt
+deleted file mode 100644
+index d762e1b..0000000
+--- a/git.command.reminder.txt
++++ /dev/null
+@@ -1,51 +0,0 @@
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+-$ cd src/infra-structure/
+-(base)
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+-$ git submodule add https://github.com/mafeijian/graphics-viewer.git
+-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/graphics-viewer'...
+-remote: Enumerating objects: 34, done.
+-remote: Counting objects: 100% (34/34), done.
+-remote: Compressing objects: 100% (24/24), done.
+-remote: Total 34 (delta 6), reused 34 (delta 6), pack-reused 0 (from 0)
+-Receiving objects: 100% (34/34), 49.52 KiB | 396.00 KiB/s, done.
+-Resolving deltas: 100% (6/6), done.
+-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+-(base)
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+-$ git submodule add https://github.com/mafeijian/undo-transaction.git
+-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/undo-transaction'...
+-remote: Enumerating objects: 124, done.
+-remote: Counting objects: 100% (124/124), done.
+-remote: Compressing objects: 100% (81/81), done.
+-remote: Total 124 (delta 57), reused 100 (delta 33), pack-reused 0 (from 0)
+-Receiving objects: 100% (124/124), 25.57 KiB | 8.52 MiB/s, done.
+-Resolving deltas: 100% (57/57), done.
+-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+-(base)
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+-$ git submodule add https://github.com/mafeijian/chain-update.git
+-Cloning into 'D:/Users/mfj/Code/PlanEdu/src/infra-structure/chain-update'...
+-remote: Enumerating objects: 124, done.
+-remote: Counting objects: 100% (124/124), done.
+-remote: Compressing objects: 100% (76/76), done.
+-remote: Total 124 (delta 66), reused 101 (delta 43), pack-reused 0 (from 0)
+-Receiving objects: 100% (124/124), 65.83 KiB | 674.00 KiB/s, done.
+-Resolving deltas: 100% (66/66), done.
+-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
+-(base)
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+-$ git status
+-On branch main
+-Your branch is ahead of 'origin/main' by 1 commit.
+-  (use "git push" to publish your local commits)
+-
+-Changes to be committed:
+-  (use "git restore --staged <file>..." to unstage)
+-        new file:   ../../.gitmodules
+-        new file:   chain-update
+-        new file:   graphics-viewer
+-        new file:   undo-transaction
+-
+-(base)
+-ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu/src/infra-structure (main)
+diff --git a/src/infra-structure/graphics-viewer b/src/infra-structure/graphics-viewer
+index 8312392..86cd324 160000
+--- a/src/infra-structure/graphics-viewer
++++ b/src/infra-structure/graphics-viewer
+@@ -1 +1 @@
+-Subproject commit 831239223e09349e4c55f79622cad1cf925e3b91
++Subproject commit 86cd32465d50875a1a0511abb980ee86f1d88cb7
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git add .
+g(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    git.command.reminder.txt -> git.command.add.reminder.txt
+        new file:   git.command.update.reminder.txt
+        modified:   src/infra-structure/graphics-viewer
+
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git commit -m "update graphics-view package"
+[main 7f92216] update graphics-view package
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+ rename git.command.reminder.txt => git.command.add.reminder.txt (100%)
+ create mode 100644 git.command.update.reminder.txt
+(base)
+ma_feijian@163.com MINGW64 /d/Users/mfj/Code/PlanEdu (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 551 bytes | 551.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mafeijian/PlanEdu.git
+   eb02965..7f92216  main -> main
+(base)
